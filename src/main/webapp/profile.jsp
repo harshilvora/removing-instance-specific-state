@@ -22,5 +22,6 @@
 <form action="logout" method="post">
     <input type="submit" value="Logout">
 </form>
+<div>Instance number: <%= System.getenv("CF_INSTANCE_INDEX") %></div>
 </body>
 </html>
